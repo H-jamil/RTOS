@@ -1,33 +1,14 @@
-// Lab4.c
-// Runs on either MSP432 or TM4C123
-// Starter project to Lab 4.  Take sensor readings, process the data,
+//
+// Runs on either TM4C123
+// Starter project to Lab 4 of the course Real Time Bluetooth network.
+// Take sensor readings, process the data,
 // and output the results.  Specifically, this program will
 // measure steps using the accelerometer, audio sound amplitude using
 // the microphone, temperature using the TMP006, and light using the
 // OPT3001.
-// Daniel and Jonathan Valvano
+// Jamil Hasibul
 // August 22, 2016
 
-/* This example accompanies the books
-   "Embedded Systems: Real Time Interfacing to ARM Cortex M Microcontrollers",
-   ISBN: 978-1463590154, Jonathan Valvano, copyright (c) 2016
-   "Embedded Systems: Real-Time Operating Systems for ARM Cortex-M Microcontrollers",
-   ISBN: 978-1466468863, Jonathan Valvano, copyright (c) 2016
-   "Embedded Systems: Introduction to the MSP432 Microcontroller",
-   ISBN: 978-1512185676, Jonathan Valvano, copyright (c) 2016
-   "Embedded Systems: Real-Time Interfacing to the MSP432 Microcontroller",
-   ISBN: 978-1514676585, Jonathan Valvano, copyright (c) 2016
- Copyright 2016 by Jonathan W. Valvano, valvano@mail.utexas.edu
-    You may use, edit, run or distribute this file
-    as long as the above copyright notice remains
- THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
- OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
- MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
- VALVANO SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL,
- OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
- For more information about my classes, my research, and my books, see
- http://users.ece.utexas.edu/~valvano/
- */
 
 
 #include <stdint.h>

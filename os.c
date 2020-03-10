@@ -1,10 +1,10 @@
 // os.c
-// Runs on LM4F120/TM4C123/MSP432
+// Runs on LM4C123
 // A priority/blocking real-time operating system
-// Lab 4 starter file.
-// Daniel Valvano
+// Lab 4 starter file for Real Time Bluetooth Network Course.
+// Jamil Hasibul
 // March 25, 2016
-// Hint: Copy solutions from Lab 3 into Lab 4
+
 #include <stdint.h>
 #include <stddef.h>
 #include "os.h"

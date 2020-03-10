@@ -1,9 +1,9 @@
 ;/*****************************************************************************/
 ; OSasm.s: low-level OS commands, written in assembly                       */
-; Runs on LM4F120/TM4C123/MSP432
-; Lab 4 starter file
+; Runs on TM4C123
+; Lab 4 starter file Real Time Bluetooth Network Course.
 ; March 25, 2016
-
+; Author: Jamil Hasibul
 ;
 
 
